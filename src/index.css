@@ -1,34 +1,153 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Pretendard-Regular';
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* 로그인 페이지 설정입니다 */
+
+/* 상단 로그인 타이틀 텍스트 */
+.login-introbox {
+  text-align: center;
 }
 
-.card {
-  max-width: 280px;
-  border: 1px solid black;
-  padding: 16px;
-  border-radius: 10px;
+.login-title {
+  letter-spacing: 0;
+  font-size: 1.8em;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 12px;
+  text-align: center;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card-title {
-  font-size: 2.5em;
+.intro1 {
+  font-size: 14px;
+  letter-spacing: 0;
+  position: relative;
+  top: -4px;
+  margin-bottom: 0px;
+  padding-bottom: 0.75vh;
 }
 
-.card-button {
-  background-color: aquamarine;
-  color: black;
-  border: 0;
-  padding: 8px 15px;
-  font-size: 1.2em;
-  border-radius: 5px;
+.intro2 {
+  font-size: 14px;
+  letter-spacing: 0;
+  position: relative;
+  top: -9px;
+  margin-top: 0px;
+}
+
+.boxing {
+  margin-bottom: 10px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  align-content: center;
+}
+
+/* 전체 박스입니다 */
+.loginbox {
+  display: block;
+  /* border: 1px solid black; */
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 6.5vh;
+  padding-bottom: 6.5vh;
+  align-content: center;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.login-inputboxing {
+  display: flex;
+  justify-content: center;
+}
+
+/* input 박스입니다 */
+.inputbox {
+  border-radius: 8px;
+  border: 1px solid #dbdbdb;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.25;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.inputbox:hover {
+  border: 1px solid #511ad3;
+}
+
+/* 로그인 버튼입니다 */
+.login-button {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #dbdbdb;
+  text-shadow: none;
+  box-shadow: none !important;
+  cursor: not-allowed;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 18px 10px;
+  line-height: 1;
+  min-height: 54px;
+  letter-spacing: -0.2px;
+  border: none;
+  font-family: 'Pretendard-Regular';
+}
+
+.login-button:active {
+  background-color: #5c19dd;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+/* 파트너 버튼입니다 */
+
+.partner-button {
+  height: 54px;
+  margin-top: 15px;
+  margin-bottom: 10px !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-top: none;
+  background: #fff;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #5c19dd;
+  color: #5c19dd;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Pretendard-Regular';
+}
+.partner-button:hover {
+  background-color: #511ad3;
+  color: white;
+  cursor: pointer;
 }

@@ -1,4 +1,5 @@
-import Card from './components/Card';
+// import Card from './components/Card';
+import Login from './components/Login';
 
 function App() {
   // logid
@@ -56,7 +57,8 @@ function App() {
   //view
   return (
     <>
-      <Card />
+      {/* <Card /> */}
+      <Login />
     </>
   );
 }
