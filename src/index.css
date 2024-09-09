@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  max-width: 280px;
+  border: 1px solid black;
+  padding: 16px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.card-title {
+  font-size: 2.5em;
+}
+
+.card-button {
+  background-color: aquamarine;
+  color: black;
+  border: 0;
+  padding: 8px 15px;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
