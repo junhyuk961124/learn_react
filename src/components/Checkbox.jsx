@@ -5,7 +5,7 @@ const Checkbox = () => {
     <div className="checkbox-container boxing">
       <input type="checkbox" className="form-check-input" id="Check1"></input>
       <label className="check-label" for="Check1">
-        개인정보처리동의
+        아이디 저장
       </label>
     </div>
   );
