@@ -155,7 +155,8 @@ code {
 /* 카운터 연습용 */
 .counterbox {
   display: block;
-  /* border: 1px solid black; */
+  border: 2px solid #d9cef5;
+  border-radius: 30px;
   padding-left: 10vw;
   padding-right: 10vw;
   padding-top: 6.5vh;
@@ -163,11 +164,14 @@ code {
   align-content: center;
   text-align: center;
   max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  margin: auto;
-  height: 100vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  /* margin: auto; */
+  height: 70vh;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
   box-sizing: border-box;
+  box-shadow: 5px 5px 3px 1px rgba(78, 78, 78, 0.2);
 }
 
 .counterButton {
@@ -183,12 +187,17 @@ code {
   border: 1px solid #5c19dd;
   color: #5c19dd;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   font-family: 'Pretendard-Regular';
 }
 
 .counterButton:hover {
   background-color: #511ad3;
+  color: white;
+  cursor: pointer;
+}
+.counterButton:active {
+  background-color: #310892;
   color: white;
   cursor: pointer;
 }
@@ -207,4 +216,24 @@ code {
 
 .countNumber {
   font-size: 3.5em;
+}
+
+/* 카드 연습용입니다 */
+.card {
+  max-width: 280px;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.card-sub-text {
+  font-size: 14px;
+}
+
+.card-button {
+  background-color: blue;
+  color: #fff;
+  border: 0;
+  padding: 8px 8px;
+  border-radius: 10px;
 }
