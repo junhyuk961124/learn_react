@@ -1,16 +1,18 @@
 import React from 'react';
+import CardButton from './CardButton';
 
-const Card = ({ title, subtext }) => {
+const Card = ({ title, subText, onCardButton }) => {
+  // logic
+  // const subText = "카드 서브 텍스틍비니다"
+  const handleclick = () => {
+    onCardButton();
+  };
+
   return (
     <div className="card">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-sub-text">
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-      </p>
-      <button type="button" className="card-button">
-        Go somewhere
-      </button>
+      <h5 className="card-title">{title}</h5>
+      <p className="card-sub-text">{subText}</p>
+      <CardButton onCardButton={handleclick} />
     </div>
   );
 };

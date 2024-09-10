@@ -1,7 +1,7 @@
-// import Login from './components/Login';
+import Login from './components/Login';
 // import Counter from './components/Counter';
 
-import Card from './components/Card';
+// import Card from './components/Card';
 
 function App() {
   // logid
@@ -56,12 +56,20 @@ function App() {
     console.log('다시작성해주세요.');
   }
 
+  const linkin = () => {
+    window.location.href = 'http://www.naver.com';
+  };
+
   //view
   return (
     <>
-      <Card />
-      <Card />
-      {/* <Login /> */}
+      {/* <Card
+        title={'안녕하세요'}
+        subText="안녕하세요 안녕하세요 하하"
+        onCardButton={linkin}
+      />
+      <Card title={'안녕하십니까'} subText={'안녕안녕하십니까?'} /> */}
+      <Login />
       {/* <Counter /> */}
     </>
   );
