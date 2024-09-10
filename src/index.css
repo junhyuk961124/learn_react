@@ -74,7 +74,8 @@ code {
   padding-bottom: 6.5vh;
   align-content: center;
   text-align: center;
-  max-width: 600px;
+  max-width: 50vw;
+  min-width: 350px;
   margin-left: auto;
   margin-right: auto;
   margin: auto;
