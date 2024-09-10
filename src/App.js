@@ -70,7 +70,7 @@ function App() {
       />
       <Card title={'안녕하십니까'} subText={'안녕안녕하십니까?'} /> */}
       <Login />
-      {/* <Counter /> */}
+      {/* <Counter count={2} /> */}
     </>
   );
 }

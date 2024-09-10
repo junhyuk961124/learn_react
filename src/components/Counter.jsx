@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const Counter = () => {
+const Counter = ({ count }) => {
   /**
    * 1. 사용자가 'plusButton'을 클릭한다
    * 2. 'counterNumber'의 값이 1 상승한다.
@@ -33,14 +33,14 @@ const Counter = () => {
   const increase = () => {
     //counter의 값을 변경
     if (counterNumber < 10) {
-      setCounterNumber(counterNumber + 1);
+      setCounterNumber(counterNumber + count);
     } else {
     }
   };
   const decrease = () => {
     //counter의 값을 변경
     if (counterNumber > 0) {
-      setCounterNumber(counterNumber - 1);
+      setCounterNumber(counterNumber - count);
     }
   };
 
