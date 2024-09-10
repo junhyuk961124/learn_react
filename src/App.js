@@ -1,5 +1,6 @@
 // import Card from './components/Card';
-import Login from './components/Login';
+// import Login from './components/Login';
+import Counter from './components/Counter';
 
 function App() {
   // logid
@@ -58,7 +59,8 @@ function App() {
   return (
     <>
       {/* <Card /> */}
-      <Login />
+      {/* <Login /> */}
+      <Counter />
     </>
   );
 }

@@ -151,3 +151,60 @@ code {
   color: white;
   cursor: pointer;
 }
+
+/* 카운터 연습용 */
+.counterbox {
+  display: block;
+  /* border: 1px solid black; */
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 6.5vh;
+  padding-bottom: 6.5vh;
+  align-content: center;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.counterButton {
+  height: 54px;
+  margin-top: 15px;
+  margin-bottom: 10px !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-top: none;
+  background: #fff;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #5c19dd;
+  color: #5c19dd;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Pretendard-Regular';
+}
+
+.counterButton:hover {
+  background-color: #511ad3;
+  color: white;
+  cursor: pointer;
+}
+
+.counterIntro {
+  letter-spacing: 0;
+  font-size: 1.8em;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 12px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.countNumber {
+  font-size: 3.5em;
+}
